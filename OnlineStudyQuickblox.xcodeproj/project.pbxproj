@@ -24,7 +24,7 @@
 		44576F351E1DF193002A6CB7 /* UserConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F341E1DF193002A6CB7 /* UserConfigViewController.swift */; };
 		44576F381E1E0D1E002A6CB7 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F371E1E0D1E002A6CB7 /* Chat.swift */; };
 		44576F3A1E1E0E65002A6CB7 /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F391E1E0E65002A6CB7 /* DialogViewController.swift */; };
-		44576F4B1E1E3BBE002A6CB7 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F4A1E1E3BBE002A6CB7 /* Constraints.swift */; };
+		44576F4B1E1E3BBE002A6CB7 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F4A1E1E3BBE002A6CB7 /* Const.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +48,7 @@
 		44576F341E1DF193002A6CB7 /* UserConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserConfigViewController.swift; sourceTree = "<group>"; };
 		44576F371E1E0D1E002A6CB7 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		44576F391E1E0E65002A6CB7 /* DialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
-		44576F4A1E1E3BBE002A6CB7 /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		44576F4A1E1E3BBE002A6CB7 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		C3F7DDF195B39A7568A094BA /* Pods_OnlineStudyQuickblox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlineStudyQuickblox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57901999B2BC57E013FFACE /* Pods-OnlineStudyQuickblox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineStudyQuickblox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineStudyQuickblox/Pods-OnlineStudyQuickblox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,7 +108,7 @@
 				440D51051E1CDDDA008A8A27 /* LaunchScreen.storyboard */,
 				440D51081E1CDDDA008A8A27 /* Info.plist */,
 				44576F071E1D8D4C002A6CB7 /* OnlineStudyQuickblox-Bridging-Header.h */,
-				44576F4A1E1E3BBE002A6CB7 /* Constraints.swift */,
+				44576F4A1E1E3BBE002A6CB7 /* Const.swift */,
 			);
 			path = OnlineStudyQuickblox;
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 				44576F351E1DF193002A6CB7 /* UserConfigViewController.swift in Sources */,
 				44576F311E1DED30002A6CB7 /* NSObject.swift in Sources */,
 				44576F2B1E1DECF3002A6CB7 /* UIViewController.swift in Sources */,
-				44576F4B1E1E3BBE002A6CB7 /* Constraints.swift in Sources */,
+				44576F4B1E1E3BBE002A6CB7 /* Const.swift in Sources */,
 				44576F3A1E1E0E65002A6CB7 /* DialogViewController.swift in Sources */,
 				44576F2F1E1DED19002A6CB7 /* UIStoryboard.swift in Sources */,
 				440D50FF1E1CDDDA008A8A27 /* ViewController.swift in Sources */,
