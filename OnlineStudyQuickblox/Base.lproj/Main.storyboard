@@ -178,6 +178,24 @@
             </objects>
             <point key="canvasLocation" x="3405.5999999999999" y="1603.4482758620691"/>
         </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="wcg-lt-8yY">
+            <objects>
+                <viewController storyboardIdentifier="ChatViewController" id="AVS-uc-QzD" customClass="ChatViewController" customModule="OnlineStudyQuickblox" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iyC-ga-Ymm"/>
+                        <viewControllerLayoutGuide type="bottom" id="QDS-GK-lwg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="epH-3q-jwu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jXK-op-deu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4071" y="1603"/>
+        </scene>
         <!--Dialog List View Controller-->
         <scene sceneID="CXY-sA-yAa">
             <objects>

@@ -85,9 +85,8 @@ extension DialogListViewController {
         
         DispatchQueue.global().async {
             do {
-                let to = try QB.user(withLogin: login)
-                
-                let dialog = try QB.createDialog(withOccupantIDs: [NSNumber(value: to.id)])
+                let occupant = try QB.user(withLogin: login)
+                let dialog = try QB.createDialog(withOccupant: occupant)
                 
                 DispatchQueue.main.async {
                     self.presentDialogViewController(withDialog: dialog)
@@ -100,11 +99,25 @@ extension DialogListViewController {
     }
     
     fileprivate func presentDialogViewController(withDialog dialog: QBChatDialog) {
-        let vc = DialogViewController.instantiate()
-        
-        vc.dialog = dialog
-        
-        UINavigationController.default?.pushViewController(vc, animated: true)
+        DispatchQueue.global().async {
+            do {
+                let senderUser = QBChat.instance().currentUser()!
+                let recipientID = dialog.occupantIDs?.first(where: { $0.uintValue != senderUser.id })?.uintValue
+                let recipientUser = try QB.user(withID: recipientID!)
+                
+                DispatchQueue.main.async {
+                    let vc = ChatViewController.instantiate()
+                    
+                    vc.dialog = dialog
+                    vc.senderUser = senderUser
+                    vc.recipientUser = recipientUser
+                    
+                    UINavigationController.default?.pushViewController(vc, animated: true)
+                }
+            } catch {
+                UIAlertController(error: error).show()
+            }
+        }
     }
 }
 

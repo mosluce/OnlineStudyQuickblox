@@ -24,14 +24,9 @@ class DialogViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         self.navigationItem.title = self.dialog.name
+        self.retrieveMessageList()
         
         NotificationCenter.default.addObserver(self, selector: #selector(chatDidReceive(_:)), name: .chatDidReceive, object: nil)
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        
     }
 
     override func didReceiveMemoryWarning() {

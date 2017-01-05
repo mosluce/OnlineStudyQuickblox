@@ -14,4 +14,5 @@ target 'OnlineStudyQuickblox' do
   # pod 'ChattoAdditions'
   # pod 'NoChat', :git => 'https://github.com/mbalex99/NoChat'
   pod 'IQKeyboardManagerSwift'
+  pod 'JSQMessagesViewController'
 end

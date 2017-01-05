@@ -131,9 +131,39 @@ class QB: NSObject {
         return uuser!
     }
     
-    static func createDialog(withOccupantIDs occupantIDs: [NSNumber]) throws -> QBChatDialog {
+    static func user(withID id: UInt) throws -> QBUUser {
+        let semaphore = DispatchSemaphore(value: 0)
+        
+        var error: Error?
+        var uuser: QBUUser?
+        
+        QBRequest.user(withID: id, successBlock: { (req, user) in
+            uuser = user
+            
+            semaphore.signal()
+        }) { (res) in
+            //TODO: 處理ERROR
+            error = res.error?.error
+            
+            semaphore.signal()
+        }
+        
+        SVProgressHUD.show(withStatus: "geting user id")
+        
+        _ = semaphore.wait(timeout: .distantFuture)
+        
+        SVProgressHUD.dismiss()
+        
+        if let error = error {
+            throw error
+        }
+        
+        return uuser!
+    }
+    
+    static func createDialog(withOccupant occupant: QBUUser) throws -> QBChatDialog {
         let dialog = QBChatDialog(dialogID: nil, type: .private)
-        dialog.occupantIDs = occupantIDs
+        dialog.occupantIDs = [NSNumber(value: occupant.id)]
         
         let semaphore = DispatchSemaphore(value: 0)
         

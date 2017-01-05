@@ -6,3 +6,4 @@
 #import <MobileCoreServices/MobileCoreServices.h>
 #import <Quickblox/Quickblox.h>
 #import <QuickbloxWebRTC/QuickbloxWebRTC.h>
+#import <JSQMessagesViewController/JSQMessages.h>
