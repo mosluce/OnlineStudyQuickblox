@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EACE5897E6856FD4B765AED /* Pods_OnlineStudyQuickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F7DDF195B39A7568A094BA /* Pods_OnlineStudyQuickblox.framework */; };
 		440D50FD1E1CDDDA008A8A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440D50FC1E1CDDDA008A8A27 /* AppDelegate.swift */; };
 		440D50FF1E1CDDDA008A8A27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440D50FE1E1CDDDA008A8A27 /* ViewController.swift */; };
 		440D51021E1CDDDA008A8A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440D51001E1CDDDA008A8A27 /* Main.storyboard */; };
 		440D51041E1CDDDA008A8A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440D51031E1CDDDA008A8A27 /* Assets.xcassets */; };
 		440D51071E1CDDDA008A8A27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440D51051E1CDDDA008A8A27 /* LaunchScreen.storyboard */; };
+		44576F0B1E1D900E002A6CB7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F0A1E1D900E002A6CB7 /* LoginViewController.swift */; };
+		44576F261E1D939E002A6CB7 /* QB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F251E1D939E002A6CB7 /* QB.swift */; };
+		44576F2A1E1DECF3002A6CB7 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F281E1DECF3002A6CB7 /* UINavigationController.swift */; };
+		44576F2B1E1DECF3002A6CB7 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F291E1DECF3002A6CB7 /* UIViewController.swift */; };
+		44576F2E1E1DED19002A6CB7 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F2C1E1DED19002A6CB7 /* UIApplication.swift */; };
+		44576F2F1E1DED19002A6CB7 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F2D1E1DED19002A6CB7 /* UIStoryboard.swift */; };
+		44576F311E1DED30002A6CB7 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F301E1DED30002A6CB7 /* NSObject.swift */; };
+		44576F331E1DF18A002A6CB7 /* DialogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F321E1DF18A002A6CB7 /* DialogListViewController.swift */; };
+		44576F351E1DF193002A6CB7 /* UserConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F341E1DF193002A6CB7 /* UserConfigViewController.swift */; };
+		44576F381E1E0D1E002A6CB7 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F371E1E0D1E002A6CB7 /* Chat.swift */; };
+		44576F3A1E1E0E65002A6CB7 /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44576F391E1E0E65002A6CB7 /* DialogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A01B7D91675B934677998F1 /* Pods-OnlineStudyQuickblox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineStudyQuickblox.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineStudyQuickblox/Pods-OnlineStudyQuickblox.release.xcconfig"; sourceTree = "<group>"; };
 		440D50F91E1CDDDA008A8A27 /* OnlineStudyQuickblox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineStudyQuickblox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		440D50FC1E1CDDDA008A8A27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		440D50FE1E1CDDDA008A8A27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,20 @@
 		440D51031E1CDDDA008A8A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		440D51061E1CDDDA008A8A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		440D51081E1CDDDA008A8A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44576F071E1D8D4C002A6CB7 /* OnlineStudyQuickblox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnlineStudyQuickblox-Bridging-Header.h"; sourceTree = "<group>"; };
+		44576F0A1E1D900E002A6CB7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		44576F251E1D939E002A6CB7 /* QB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QB.swift; sourceTree = "<group>"; };
+		44576F281E1DECF3002A6CB7 /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		44576F291E1DECF3002A6CB7 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		44576F2C1E1DED19002A6CB7 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		44576F2D1E1DED19002A6CB7 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		44576F301E1DED30002A6CB7 /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		44576F321E1DF18A002A6CB7 /* DialogListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogListViewController.swift; sourceTree = "<group>"; };
+		44576F341E1DF193002A6CB7 /* UserConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserConfigViewController.swift; sourceTree = "<group>"; };
+		44576F371E1E0D1E002A6CB7 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		44576F391E1E0E65002A6CB7 /* DialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
+		C3F7DDF195B39A7568A094BA /* Pods_OnlineStudyQuickblox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlineStudyQuickblox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57901999B2BC57E013FFACE /* Pods-OnlineStudyQuickblox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineStudyQuickblox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineStudyQuickblox/Pods-OnlineStudyQuickblox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +56,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EACE5897E6856FD4B765AED /* Pods_OnlineStudyQuickblox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35E71BA6132605FE96947346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3F7DDF195B39A7568A094BA /* Pods_OnlineStudyQuickblox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		440D50F01E1CDDD9008A8A27 = {
 			isa = PBXGroup;
 			children = (
 				440D50FB1E1CDDDA008A8A27 /* OnlineStudyQuickblox */,
 				440D50FA1E1CDDDA008A8A27 /* Products */,
+				F07159263FBFE354DC689CDF /* Pods */,
+				35E71BA6132605FE96947346 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,59 @@
 		440D50FB1E1CDDDA008A8A27 /* OnlineStudyQuickblox */ = {
 			isa = PBXGroup;
 			children = (
+				44576F401E1E2527002A6CB7 /* ChattoApp */,
+				44576F361E1DFA63002A6CB7 /* Services */,
+				44576F271E1D93EC002A6CB7 /* Extensions */,
 				440D50FC1E1CDDDA008A8A27 /* AppDelegate.swift */,
 				440D50FE1E1CDDDA008A8A27 /* ViewController.swift */,
+				44576F0A1E1D900E002A6CB7 /* LoginViewController.swift */,
+				44576F341E1DF193002A6CB7 /* UserConfigViewController.swift */,
+				44576F321E1DF18A002A6CB7 /* DialogListViewController.swift */,
+				44576F391E1E0E65002A6CB7 /* DialogViewController.swift */,
 				440D51001E1CDDDA008A8A27 /* Main.storyboard */,
 				440D51031E1CDDDA008A8A27 /* Assets.xcassets */,
 				440D51051E1CDDDA008A8A27 /* LaunchScreen.storyboard */,
 				440D51081E1CDDDA008A8A27 /* Info.plist */,
+				44576F071E1D8D4C002A6CB7 /* OnlineStudyQuickblox-Bridging-Header.h */,
 			);
 			path = OnlineStudyQuickblox;
+			sourceTree = "<group>";
+		};
+		44576F271E1D93EC002A6CB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				44576F301E1DED30002A6CB7 /* NSObject.swift */,
+				44576F281E1DECF3002A6CB7 /* UINavigationController.swift */,
+				44576F291E1DECF3002A6CB7 /* UIViewController.swift */,
+				44576F2C1E1DED19002A6CB7 /* UIApplication.swift */,
+				44576F2D1E1DED19002A6CB7 /* UIStoryboard.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		44576F361E1DFA63002A6CB7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				44576F251E1D939E002A6CB7 /* QB.swift */,
+				44576F371E1E0D1E002A6CB7 /* Chat.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		44576F401E1E2527002A6CB7 /* ChattoApp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ChattoApp;
+			sourceTree = "<group>";
+		};
+		F07159263FBFE354DC689CDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F57901999B2BC57E013FFACE /* Pods-OnlineStudyQuickblox.debug.xcconfig */,
+				0A01B7D91675B934677998F1 /* Pods-OnlineStudyQuickblox.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 440D510B1E1CDDDA008A8A27 /* Build configuration list for PBXNativeTarget "OnlineStudyQuickblox" */;
 			buildPhases = (
+				F73B5C9847BE566A07395170 /* [CP] Check Pods Manifest.lock */,
 				440D50F51E1CDDD9008A8A27 /* Sources */,
 				440D50F61E1CDDD9008A8A27 /* Frameworks */,
 				440D50F71E1CDDD9008A8A27 /* Resources */,
+				8C462FDE3DAFDCD9429E5101 /* [CP] Embed Pods Frameworks */,
+				876FD3E741D9CB90888B1A90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +183,7 @@
 					440D50F81E1CDDD9008A8A27 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 8E5H4JDK8B;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,12 +219,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		876FD3E741D9CB90888B1A90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnlineStudyQuickblox/Pods-OnlineStudyQuickblox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C462FDE3DAFDCD9429E5101 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnlineStudyQuickblox/Pods-OnlineStudyQuickblox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F73B5C9847BE566A07395170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		440D50F51E1CDDD9008A8A27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44576F331E1DF18A002A6CB7 /* DialogListViewController.swift in Sources */,
+				44576F381E1E0D1E002A6CB7 /* Chat.swift in Sources */,
+				44576F0B1E1D900E002A6CB7 /* LoginViewController.swift in Sources */,
+				44576F2E1E1DED19002A6CB7 /* UIApplication.swift in Sources */,
+				44576F2A1E1DECF3002A6CB7 /* UINavigationController.swift in Sources */,
+				44576F351E1DF193002A6CB7 /* UserConfigViewController.swift in Sources */,
+				44576F311E1DED30002A6CB7 /* NSObject.swift in Sources */,
+				44576F2B1E1DECF3002A6CB7 /* UIViewController.swift in Sources */,
+				44576F3A1E1E0E65002A6CB7 /* DialogViewController.swift in Sources */,
+				44576F2F1E1DED19002A6CB7 /* UIStoryboard.swift in Sources */,
 				440D50FF1E1CDDDA008A8A27 /* ViewController.swift in Sources */,
+				44576F261E1D939E002A6CB7 /* QB.swift in Sources */,
 				440D50FD1E1CDDDA008A8A27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,26 +403,37 @@
 		};
 		440D510C1E1CDDDA008A8A27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57901999B2BC57E013FFACE /* Pods-OnlineStudyQuickblox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8E5H4JDK8B;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OnlineStudyQuickblox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.demo.OnlineStudyQuickblox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnlineStudyQuickblox/OnlineStudyQuickblox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		440D510D1E1CDDDA008A8A27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A01B7D91675B934677998F1 /* Pods-OnlineStudyQuickblox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8E5H4JDK8B;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OnlineStudyQuickblox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.demo.OnlineStudyQuickblox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnlineStudyQuickblox/OnlineStudyQuickblox-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +457,7 @@
 				440D510D1E1CDDDA008A8A27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
