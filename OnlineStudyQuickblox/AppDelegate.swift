@@ -18,20 +18,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        QBSettings.setApplicationID(51284)
+        QBSettings.setApplicationID(QBAppID)
+        
+        // MARK: 開發中臨時設定
+        // TODO: 正式環境改用自訂 backend 產生 session token
+        QBSettings.setAuthKey(QBAuthKey)
+        QBSettings.setAuthSecret(QBAuthSecret)
+        QBSettings.setAccountKey(QBAccountKey)
+        
+        QBSettings.enableXMPPLogging()
+        QBSettings.setCarbonsEnabled(true)
         
         // CONFIG: SVProgresssHUD
         SVProgressHUD.setDefaultStyle(.light)
         SVProgressHUD.setDefaultMaskType(.black)
-        
-        // MARK: 開發中臨時設定
-        // TODO: 正式環境改用自訂 backend 產生 session token
-        QBSettings.setAuthKey("uJRx8F5rgcZHmeh")
-        QBSettings.setAuthSecret("Ax2SjtZX9CmTkM8")
-        QBSettings.setAccountKey("2gbtnAVXpsAMhpmbqjdS")
-        
-        QBSettings.enableXMPPLogging()
-        QBSettings.setCarbonsEnabled(true)
         
         // Chat Service
         Chat.shared.config()
